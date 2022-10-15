@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  'scripts': {
+    'start': "nodemon server.js"
+  },
   "devDependencies": {
     "colors": "^1.4.0",
     "morgan": "^1.10.0",
