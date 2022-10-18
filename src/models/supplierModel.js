@@ -3,7 +3,7 @@ const {ObjectId} = mongoose.Schema.Types;
 const validator = require('validator');
 
 
-const supplierShema = mongoose.Schema(
+const supplierSchema = mongoose.Schema(
     {
         name: {
             required: [true, 'Please provide a name'],
@@ -95,6 +95,6 @@ const supplierShema = mongoose.Schema(
 );
 
 
-const Supplier = mongoose.model('Supplier', supplierShema);
+const Supplier = mongoose.model('Supplier', supplierSchema);
 
 module.exports = Supplier;
